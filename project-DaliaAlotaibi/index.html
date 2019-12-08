@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Tic-Tac-Toe,game">
+    <meta name="description" content="Free Tic-Tac-Toe Game">
+    <meta name="author" content="Dalia Khalaf">
+    <meta http-equiv="refresh" content="30">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font embed -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Nothing+You+Could+Do|Reenie+Beanie|Righteous&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+ <!-- Start container1 -->
+<div class="container1">
+    <!-- Start Header -->
+    <header>
+        <div id="logo" class="header">
+         <img src="assets/images.png" alt="Tic-Tac-Toe" > 
+        </div>
+        <div id="title" class="header">
+           <p>Tic Tac Toe</p>
+        </div>
+    </header><!-- End Header -->
+    
+    
+    <!-- Start container2 -->
+  
+               <div class="container2" >
+                        
+                    <div class="item section1">
+                        
+                        <p id="message">player Turn : <span id="turn">X</span> </p>
+                                 
+                    </div>
+
+                   <div class="item section2">
+                       <div class="game">
+                        <table>
+                            <tr class="row 1">
+                                <td id="cell0"></td>
+                                <td id="cell1"></td>
+                                <td id="cell2"></td>
+                            </tr>
+                            <tr class="row 2">
+                                <td id="cell3"></td>
+                                <td id="cell4"></td>
+                                <td id="cell5"></td>
+                            </tr>
+                            <tr class="row 3">
+                                <td id="cell6"></td>
+                                <td id="cell7"></td>
+                                <td id="cell8"></td>
+                            </tr>
+                        </table>
+                     </div>
+                     <div class="game">
+                        <button onClick="window.location.reload();" >New Game</button>
+                    </div>
+                 </div>
+
+                    <div class="item section3">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">About Us</a> </li>
+                                    <li><a href="#">Contact Us </a></li>
+                                </ul>
+                            </nav>
+                                     
+                        </div>            
+                </div>
+            </div>
+                         
+    <!-- Start Footer -->
+    <footer>
+            
+            <div class="footer image">
+                <img src="assets/twitter.png" alt="twittericon" width="30px" height="30px">
+                <img src="assets/instgram.png" alt="instgramicon" width="30px" height="30px">
+                <img src="assets/facebook.png" alt="facebookicon" width="30px" height="30px">
+            </div>
+            <div class="footer text"><p>©&nbspCopyright 2019 by Dalia. All rights reversed</p></div>
+    </footer> <!-- End Footer -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
